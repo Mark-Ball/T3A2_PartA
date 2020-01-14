@@ -13,7 +13,10 @@
 
 ## 2. Application Artchitecture
 
+![MERN_Application_Architecture](/docs/MERN-Application-Architecture.PNG)
+
 ## 3. User stories
+Mark
 
 ## 4. Wireframes
 
