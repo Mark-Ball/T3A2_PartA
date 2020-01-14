@@ -7,9 +7,10 @@
     - lesson pdfs embedded to page and available to download
 - Target audience: for internal parties of the company and selected clients in order to upskill.
 - Tech stack
+jurra
 
 ## 1. Dataflow Diagram
-
+Jurra
 
 ## 2. Application Artchitecture
 
