@@ -16,11 +16,13 @@ jurra
 
 ## 1. Dataflow Diagram
 ![dataflow-diagram-mern](/docs/dataflow-diagram-mern.JPG)
+
 <strong>Figure 1.</strong> Dataflow diagram
 
 ## 2. Application Architecture
 
 ![MERN-Application-Architecture](/docs/MERN-Application-Architecture.PNG)
+
 <strong>Figure 2.</strong> Application architecture diagram
 
 ## 3. User stories
@@ -78,7 +80,9 @@ To plan which features should be completed first, 'scrum poker' was used to esti
 The highest priority features are the ones with high importance and low complexity, and the lowest priority features are the ones with low importance and high complexity. Features in the other two boxes, high importance-high complexity and low importance-low complexity are intermediate. This categorisation allows makes the decision of which features to work on easier.
 
 ![kanban_2](/docs/kanban_2.PNG)
+
 <strong>Figure x.</strong> Kanban board for Part A, beginning day 4.
 
 ![kanban_3](/docs/kanban_3.PNG)
+
 <strong>Figure x.</strong> Kanban board for Part A, end day 4.
