@@ -24,6 +24,7 @@
         - React: javascript library for building user interfaces.
 
 ## 1. Dataflow Diagram
+
 ![dataflow-diagram-mern](/docs/dataflow-diagram-mern.JPG)
 
 <strong>Figure 1.</strong> Dataflow diagram
@@ -79,100 +80,122 @@
 <strong>Implication:</strong> there should be functionality within the application to add learning material
 
 ## 4. Wireframes
+
 ### Landing Page
+
 Entry Point of Application.
 
 ![login-register-page](/docs/MERN-Wireframes/login-register-page-desktop.PNG)
 
 __Figure 3__. Desktop Version of Login/Register Page
+
 ![login-register-page](/docs/MERN-Wireframes/login-register-page-ipad.PNG)
 
 __Figure 4__. iPad Version of Login/Register Page
+
 ![login-register-page](/docs/MERN-Wireframes/login-register-page-mobile.PNG)
 
 __Figure 5__. Mobile Version of Login/Register Page
 
 ### Home Page
+
 Point of entry to the application once authorised. 
 
 ![home-page](/docs/MERN-Wireframes/home-page-desktop.PNG)
 
-__Figure 6__. Desktop Version of Home Page 
+__Figure 6__. Desktop Version of Home Page
+
 ![home-page](/docs/MERN-Wireframes/home-page-category-selector-desktop.PNG)
 
 __Figure 7__. Desktop Version of Home Page 
+
 ![home-page](/docs/MERN-Wireframes/home-page-ipad.PNG)
 
 __Figure 8__. iPad Version of Home Page
+
 ![home-page](/docs/MERN-Wireframes/home-page-mobile.PNG)
 
 __Figure 9__. Mobile Version of Home Page
 
 ### Search Results Page
+
 Returns results of a search query.
 
 ![search-results-page](/docs/MERN-Wireframes/search-results-page-desktop.PNG)
 
 __Figure 10__. Desktop Version of Results Page 
+
 ![search-results-page](/docs/MERN-Wireframes/search-results-page-ipad.PNG)
 
 __Figure 11__. iPad Version of Results Page
+
 ![search-results-page](/docs/MERN-Wireframes/search-results-page-mobile.PNG)
 
 __Figure 12__. Mobile Version of Results Page
 
 ### Learning Content Page
+
 Displays the selected content chosen from search query. 
 
 ![content-show-page](/docs/MERN-Wireframes/content-show-page-desktop.PNG)
 
 __Figure 13__. Desktop Version of Content Page 
+
 ![content-show-page](/docs/MERN-Wireframes/content-show-page-ipad.PNG)
 
 __Figure 14__. iPad Version of Content Page
+
 ![content-show-page](/docs/MERN-Wireframes/content-show-page-mobile.PNG)
 
 __Figure 15__. Mobile Version of Content Page
 
 ### Admin Dashboard
+
 Landing Page for the Admin Account
 
 ![admin-dash-page](/docs/MERN-Wireframes/admin-dash-page-desktop.PNG)
 
 __Figure 16__. Desktop Version of Admin Dashboard  
+
 ![admin-dash-page](/docs/MERN-Wireframes/admin-dash-page-ipad.PNG)
 
 __Figure 17__. iPad Version of Admin Dashboard 
+
 ![admin-dash-page](/docs/MERN-Wireframes/admin-dash-page-mobile.PNG)
 
 __Figure 18__. Mobile Version of Admin Dashboard 
 
 ### Admin Approval Page 
+
 Allows the administrator the ability to approve pending users' access to the site and additionally toggle existing user's access.
 
 ![admin-approval](/docs/MERN-Wireframes/admin-approval-desktop.PNG)
 
 __Figure 19__. Desktop Version of Admin Approval Page 
+
 ![admin-approval](/docs/MERN-Wireframes/admin-approval-ipad.PNG)
 
 __Figure 20__. iPad Version of Admin Approval Page
+
 ![admin-approval](/docs/MERN-Wireframes/admin-approval-mobile.PNG)
 
 __Figure 21__. Mobile Version of Admin Approval Page
 
 ### Admin Content Upload & Removal Page
+
 Allows the administrator to add new content or remove existing content.
 
 ![admin-file-content-page](/docs/MERN-Wireframes/admin-file-content-page-desktop.PNG)
 
 __Figure 22__. Desktop Version of Admin Content Page 
+
 ![admin-file-content-page](/docs/MERN-Wireframes/admin-file-content-page-ipad.PNG)
 
 __Figure 23__. iPad Version of Admin Content Page
+
 ![admin-file-content-page](/docs/MERN-Wireframes/admin-file-content-page-mobile.PNG)
 
 __Figure 24__. Mobile Version of Admin Content Page
-
 
 ## 5. Kanban board
 
