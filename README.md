@@ -194,6 +194,6 @@ The highest priority features are the ones with high importance and low complexi
 
 <strong>Figure 27.</strong> Kanban board for Part A, end day 4.
 
-![kanban_4](/docs/kanban_4.JPG)
+![kanban_4](/docs/kanban_4.jpg)
 
 <strong>Figure 28.</strong> Kanban board for Part B, end day 4.
