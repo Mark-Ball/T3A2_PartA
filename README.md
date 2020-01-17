@@ -1,18 +1,27 @@
 # MERN Project
 
-- Purpose: The purpose of the application is to create an interface that manages and surfaces content from a library of learning content for internal use and select clients to build and teach. 
+- Purpose: To create an interface that manages and surfaces content from a library of learning content for use by staff and clients to build and teach.
 - Functionality / features:
-    - categorised content: all learning content is sorted into appropriate categories based on their topic
-    - progression in learning, (some topics have multiple lessons with increasing difficulty), therefore display prerequisites (assumed knowledge) of lesson
-    - admin user approval to view content
+    - categorised content: all learning content is sorted into appropriate categories based on their topic to facilitate searching.
+    - lessons organised as a progression.
+    - username and password protection for learning content
+    - admin user approval to view learning content
     - admin ability to upload and remove learning content
     - learning pdf content embedded in window with option to download
+    - content marked with date created.
     - flags for content more than a year old.
-- Target audience: for internal parties of the company and selected clients in order to upskill.
+    - lessons flagged with proficiency score
+- Target audience: for staff of the company and their selected clients in order to upskill.
 - Tech stack
-    - Draw io
-    - 
-jurra
+    - Dev Ops
+        - MongoDB: flexible and scalable document database.
+        - Amazon s3: object storage service.
+        - Heroku: hosting-as-a-service cloud application platform.
+    - Backend
+        - Express: web framework for Node.
+        - Node.js: javascript runtime environment.
+    - Frontend
+        - React: javascript library for building user interfaces.
 
 ## 1. Dataflow Diagram
 ![dataflow-diagram-mern](/docs/dataflow-diagram-mern.JPG)
@@ -75,108 +84,116 @@ Entry Point of Application.
 
 ![login-register-page](/docs/MERN-Wireframes/login-register-page-desktop.PNG)
 
-##### Figure 3: Desktop Version of Login/Register Page
+__Figure 3__. Desktop Version of Login/Register Page
 ![login-register-page](/docs/MERN-Wireframes/login-register-page-ipad.PNG)
 
-##### Figure 4: iPad Version of Login/Register Page
+__Figure 4__. iPad Version of Login/Register Page
 ![login-register-page](/docs/MERN-Wireframes/login-register-page-mobile.PNG)
 
-##### Figure 5: Mobile Version of Login/Register Page
+__Figure 5__. Mobile Version of Login/Register Page
 
 ### Home Page
 Point of entry to the application once authorised. 
 
 ![home-page](/docs/MERN-Wireframes/home-page-desktop.PNG)
 
-##### Figure 6: Desktop Version of Home Page 
+__Figure 6__. Desktop Version of Home Page 
 ![home-page](/docs/MERN-Wireframes/home-page-category-selector-desktop.PNG)
 
-##### Figure 7: Desktop Version of Home Page 
+__Figure 7__. Desktop Version of Home Page 
 ![home-page](/docs/MERN-Wireframes/home-page-ipad.PNG)
 
-##### Figure 8: iPad Version of Home Page
+__Figure 8__. iPad Version of Home Page
 ![home-page](/docs/MERN-Wireframes/home-page-mobile.PNG)
 
-##### Figure 9: Mobile Version of Home Page
+__Figure 9__. Mobile Version of Home Page
 
 ### Search Results Page
 Returns results of a search query.
 
 ![search-results-page](/docs/MERN-Wireframes/search-results-page-desktop.PNG)
 
-##### Figure 10: Desktop Version of Results Page 
+__Figure 10__. Desktop Version of Results Page 
 ![search-results-page](/docs/MERN-Wireframes/search-results-page-ipad.PNG)
 
-##### Figure 11: iPad Version of Results Page
+__Figure 11__. iPad Version of Results Page
 ![search-results-page](/docs/MERN-Wireframes/search-results-page-mobile.PNG)
 
-##### Figure 12: Mobile Version of Results Page
+__Figure 12__. Mobile Version of Results Page
 
 ### Learning Content Page
 Displays the selected content chosen from search query. 
 
 ![content-show-page](/docs/MERN-Wireframes/content-show-page-desktop.PNG)
 
-##### Figure 13: Desktop Version of Content Page 
+__Figure 13__. Desktop Version of Content Page 
 ![content-show-page](/docs/MERN-Wireframes/content-show-page-ipad.PNG)
 
-##### Figure 14: iPad Version of Content Page
+__Figure 14__. iPad Version of Content Page
 ![content-show-page](/docs/MERN-Wireframes/content-show-page-mobile.PNG)
 
-##### Figure 15: Mobile Version of Content Page
+__Figure 15__. Mobile Version of Content Page
 
 ### Admin Dashboard
 Landing Page for the Admin Account
 
 ![admin-dash-page](/docs/MERN-Wireframes/admin-dash-page-desktop.PNG)
 
-##### Figure 16: Desktop Version of Admin Dashboard  
+__Figure 16__. Desktop Version of Admin Dashboard  
 ![admin-dash-page](/docs/MERN-Wireframes/admin-dash-page-ipad.PNG)
 
-##### Figure 17: iPad Version of Admin Dashboard 
+__Figure 17__. iPad Version of Admin Dashboard 
 ![admin-dash-page](/docs/MERN-Wireframes/admin-dash-page-mobile.PNG)
 
-##### Figure 18: Mobile Version of Admin Dashboard 
+__Figure 18__. Mobile Version of Admin Dashboard 
 
 ### Admin Approval Page 
 Allows the administrator the ability to approve pending users' access to the site and additionally toggle existing user's access.
 
 ![admin-approval](/docs/MERN-Wireframes/admin-approval-desktop.PNG)
 
-##### Figure 19: Desktop Version of Admin Approval Page 
+__Figure 19__. Desktop Version of Admin Approval Page 
 ![admin-approval](/docs/MERN-Wireframes/admin-approval-ipad.PNG)
 
-##### Figure 20: iPad Version of Admin Approval Page
+__Figure 20__. iPad Version of Admin Approval Page
 ![admin-approval](/docs/MERN-Wireframes/admin-approval-mobile.PNG)
 
-##### Figure 21: Mobile Version of Admin Approval Page
+__Figure 21__. Mobile Version of Admin Approval Page
 
 ### Admin Content Upload & Removal Page
 Allows the administrator to add new content or remove existing content.
 
 ![admin-file-content-page](/docs/MERN-Wireframes/admin-file-content-page-desktop.PNG)
 
-##### Figure 22: Desktop Version of Admin Content Page 
+__Figure 22__. Desktop Version of Admin Content Page 
 ![admin-file-content-page](/docs/MERN-Wireframes/admin-file-content-page-ipad.PNG)
 
-##### Figure 23: iPad Version of Admin Content Page
+__Figure 23__. iPad Version of Admin Content Page
 ![admin-file-content-page](/docs/MERN-Wireframes/admin-file-content-page-mobile.PNG)
 
-##### Figure 24: Mobile Version of Admin Content Page
+__Figure 24__. Mobile Version of Admin Content Page
 
 
 ## 5. Kanban board
 
 The project used a physical kanban board to visualise the progression of features in the project.
 
-To plan which features should be completed first, 'scrum poker' was used to estimate the complexity and importance of each feature. Each feature was categorised into one of four boxes, representing the priority of the feature.
+To plan which features should be completed first, 'scrum poker' was used to estimate the complexity and importance of each feature. Each feature was categorised into one of four boxes inside the To-Do column, representing the priority of the feature.
 
 The highest priority features are the ones with high importance and low complexity, and the lowest priority features are the ones with low importance and high complexity. Features in the other two boxes, high importance-high complexity and low importance-low complexity are intermediate. This categorisation allows makes the decision of which features to work on easier.
 
+![kanban_1](/docs/kanban_1.PNG)
+
+<strong>Figure 25.</strong> Kanban board for Part A, beginning day 1.
+
 ![kanban_2](/docs/kanban_2.PNG)
 
-<strong>Figure x.</strong> Kanban board for Part A, beginning day 4.
+<strong>Figure 26.</strong> Kanban board for Part A, beginning day 4.
 
 ![kanban_3](/docs/kanban_3.PNG)
 
-<strong>Figure x.</strong> Kanban board for Part A, end day 4.
+<strong>Figure 27.</strong> Kanban board for Part A, end day 4.
+
+![kanban_4](/docs/kanban_4.jpg)
+
+<strong>Figure 28.</strong> Kanban board for Part B, end day 4.
